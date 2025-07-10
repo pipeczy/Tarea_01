@@ -16,6 +16,7 @@ def juego_preguntas_respuestas():
     
     #region Preguntas
     # Base de datos de preguntas: cada pregunta tiene formato [pregunta, opción_a, opción_b, opción_c, respuesta_correcta]
+    # Formato: pregunta = [0], opción a = [1], opción b = [2], opción c = [3], respuesta correcta = [4] 
     preguntas = [
         ["¿Cuál es la capital de Francia?", "Madrid", "París", "Londres", "b"],
         ["¿Quién escribió 'Don Quijote de la Mancha'?", "Miguel de Cervantes", "Gabriel García Márquez", "William Shakespeare", "a"],
